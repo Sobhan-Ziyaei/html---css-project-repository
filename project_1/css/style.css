@@ -1,9 +1,36 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: var(--bg-color);
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: var(--nav-color);
+    border-radius: 12px;
+    margin-top: 1rem;
+    box-shadow: 0 2px 8px 0 rgba(99, 99, 99, 0.2);
+    padding: 1rem 2rem;
+
+}
+
+.left-nav{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.section-logo{
+    display: flex;
+    align-items: center;
 }
