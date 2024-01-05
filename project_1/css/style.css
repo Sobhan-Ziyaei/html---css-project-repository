@@ -32,6 +32,7 @@ body {
   margin-top: 1rem;
   box-shadow: 0 2px 8px 0 rgba(99, 99, 99, 0.2);
   padding: 1rem 2rem;
+  justify-content: space-between;
 }
 
 .left-nav {
@@ -44,4 +45,18 @@ body {
 
 .box-image-logo img {
   width: 100%;
+}
+
+.center-nav {
+  width: 50%;
+}
+
+.center-nav ul {
+  justify-content: space-between;
+  height: 100%;
+  list-style-type: none;
+}
+
+.center-nav a {
+  text-decoration: none;
 }
