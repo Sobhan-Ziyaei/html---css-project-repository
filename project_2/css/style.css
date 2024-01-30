@@ -287,3 +287,52 @@ header {
   padding: 0.75rem 1.5rem;
   border-radius: 5px;
 }
+
+.header-description-container {
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.right-description {
+  flex-basis: 50%;
+}
+
+.left-description {
+  flex-basis: 50%;
+}
+
+.right-description h1 {
+  color: #081d43;
+  font-family: "TTNorms Medium";
+  font-weight: normal;
+}
+
+.description p {
+  color: #6c7890;
+  line-height: 2rem;
+}
+
+.link-btns {
+  display: flex;
+}
+
+.link-btns a {
+  background: #0050c8;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  margin-right: 1rem;
+  display: block;
+  width: 10rem;
+  text-align: center;
+}
+
+.link-btn:nth-child(1) {
+  background: #87bc25;
+}
+
+.right-description-wrapper {
+  width: 26rem;
+}
