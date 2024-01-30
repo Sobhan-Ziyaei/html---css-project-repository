@@ -336,3 +336,56 @@ header {
 .right-description-wrapper {
   width: 26rem;
 }
+
+/* main section */
+
+main {
+  margin-top: 6rem;
+}
+
+.works-title {
+  font-family: "TTNorms";
+  text-align: center;
+  font-weight: normal;
+}
+
+.works-text {
+  text-align: center;
+  color: #081d43;
+  font-family: "TTNorms Medium";
+  font-weight: normal;
+}
+
+.works-item-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.works-item-title {
+  text-align: center;
+  color: #081d43;
+  font-family: "TTNorms";
+  font-weight: normal;
+}
+
+.works-item-text {
+  text-align: center;
+  color: #6c7890;
+  line-height: 2rem;
+}
+
+.works-item {
+  width: 15rem;
+}
+
+.works-image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.works-image-container img {
+  height: 390px;
+  width: 490px;
+}
